@@ -7,6 +7,9 @@ Remember to cut out the # from hex color codes.
 
 <h3>CPU Usage:</h3>
 
+<img width="337" height="33" alt="low" src="https://github.com/user-attachments/assets/57d24a05-e450-4c60-b4b8-e93e637449ec" />
+<img width="339" height="35" alt="full" src="https://github.com/user-attachments/assets/b5db231c-5ffa-4e2f-b267-ae98b93d5004" />
+
 conky.conf
 ~~~
 ${execpi 5 /your/folder/conky/scripts/CPU_ut.sh}
