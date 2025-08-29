@@ -5,10 +5,11 @@ These are all handmade for a 36 letter wide window. You will need to account for
 i.e. you´ll have to do some math to make it work in your setup. To get a nice gradient you can use https://htmlcolorcodes.com/color-picker/
 Remember to cut out the # from hex color codes.
 
-<h3>CPU Usage:</h3>
-
+Example:<br>
 <img width="337" height="33" alt="low" src="https://github.com/user-attachments/assets/57d24a05-e450-4c60-b4b8-e93e637449ec" />
 <img width="339" height="35" alt="full" src="https://github.com/user-attachments/assets/b5db231c-5ffa-4e2f-b267-ae98b93d5004" />
+
+<h3>CPU Usage:</h3>
 
 conky.conf
 ~~~
