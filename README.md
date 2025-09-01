@@ -65,15 +65,15 @@ And so on...
 
 conky.conf
 ~~~
-${execpi 5 /your/folder/conky/scripts/RAM_ut.sh}
+${execpi 5 /your/folder/conky/scripts/RAM_ut.sh} 
 ${voffset -33}
 {font :bold:size=6}|' ' ' ' ' ' '25' ' ' ' ' ' ' '50' ' ' ' ' ' ' '75' ' ' ' ' ' '|
 ~~~
-RAM_ut.sh
+RAM_ut.sh (32Gb of RAM)
 ~~~
 #!/bin/sh
 cat /proc/meminfo | awk 'NR==3{
-   n = ((((32659836-$2)/1024)/1024)*1.1428);two = 10;  three = 15; four = 25;
+   n = ((((32659836-$2)/1024)/1024)*1.1428);two = 10;  three = 15; four = 25; 
 
 And so on...
 ~~~
