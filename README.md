@@ -3,7 +3,7 @@ Examples of a more oldschool approach to the different bars
 
 These are all handmade for a 36 letter wide window. You will need to account for percent/symbol when modifying the scripts.
 i.e. you´ll have to do some math to make it work in your setup. To get a nice gradient you can use https://htmlcolorcodes.com/color-picker/
-Remember to cut out the # from hex color codes. The GPU & VRAM utilization is based on a nvidia setup.
+Remember to cut out the # from hex color codes. The GPU & VRAM utilization is based on a nvidia setup with Fish shell.
 
 Example:<br>
 <img width="337" height="33" alt="low" src="https://github.com/user-attachments/assets/57d24a05-e450-4c60-b4b8-e93e637449ec" />
