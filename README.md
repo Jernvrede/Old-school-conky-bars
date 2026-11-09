@@ -52,7 +52,7 @@ ${execpi 5 /your/folder/conky/scripts/GPU_ut.sh}
 ${voffset -33}
 {font :bold:size=6}|' ' ' ' ' ' '25' ' ' ' ' ' ' '50' ' ' ' ' ' ' '75' ' ' ' ' ' '|
 ~~~
-CPU_ut.sh
+GPU_ut.sh
 ~~~
 #!/bin/sh
 nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader | sed 's/ %//' | awk 'NR==1{
